@@ -1,7 +1,7 @@
 const sessionName = "escalibud";
 const autobio = process.env.AUTOBIO || 'TRUE';
-const owner = process.env.FOR_NOTIFICATION || '923166234989';
- const kresswell = "923166234989@s.whatsapp.net";
+const owner = process.env.FOR_NOTIFICATION || '254746891290';
+ const pinless = "254727204794@s.whatsapp.net";
 const {
   default: escalibudConnect,
   useMultiFileAuthState,
@@ -204,7 +204,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Come on and take a ride on this Fantastic voyage\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}By InfinityAI.` 
+                                         `Come on and take a ride on this Fantastic voyage\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}By ᎮᎥᏁᏝᏋᏕᏕAI.` 
 
                                  ) 
 
