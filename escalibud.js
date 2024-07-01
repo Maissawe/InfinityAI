@@ -120,9 +120,9 @@ const packname = process.env.STICKER_PACKNAME || 'InfinityAI';
     const arg = budy.trim().substring(budy.indexOf(" ") + 1);
     const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
 const wapresence = process.env.WA_PRESENCE || 'recording';
- const autoread = process.env.AUTOREAD || 'TRUE';
+ const autoread = process.env.AUTOREAD || 'False';
 const autobio = process.env.AUTOBIO || 'TRUE';
-const dev = process.env.OWNER || '923166234989'
+const dev = process.env.OWNER || '254727204794'
 
     const from = m.chat;
    const isRegister = register.includes(m.sender);
